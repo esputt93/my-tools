@@ -17,7 +17,7 @@ body {
 }
 
 /* ----sunrise----- */
-main {
+section.sunrise {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,25 +69,28 @@ div.starts {
 }
 
 
-#home {
+/* #home {
   font-size: 1.2rem;
 
   position: absolute;
   top: 20px;
   left: 20px;
-}
+} */
 
 #home:hover {
   text-decoration: underline #ffffff;
 }
 
 @media only screen and (max-width:480px) {
-  section {
+  section{
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
+  section.alarms {
+    text-align: center;
+  }
   div.starts{
     padding-bottom: 2rem;
   }
